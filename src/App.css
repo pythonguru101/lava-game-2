@@ -1,0 +1,84 @@
+
+.game-board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.grid-container {
+  width: 800px;
+  height: 800px;
+  border: 5px solid black;
+  margin-bottom: 20px;
+}
+
+.grid-row {
+  display: flex;
+  flex-basis: calc(100% / 100);
+  height: calc(800px / 100);
+}
+
+.grid-cell {
+  flex-basis: calc(100% / 100);
+  height: calc(800px / 100);
+  border: 1px solid black;
+}
+
+.blank {
+  background-color: #f7f7f7;
+}
+
+.speeder {
+  background-color: #99ccff;
+}
+
+.lava {
+  background-color: #ff1a1a;
+}
+
+.mud {
+  background-color: #996633;
+}
+
+.player {
+  background-color: #ffcc00;
+}
+
+.win{
+  background-color:lime;
+}
+
+button {
+  font-size: 24px;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.legend {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+
+}
+
+.legend-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.legend-color {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border: 1px solid black;
+}
